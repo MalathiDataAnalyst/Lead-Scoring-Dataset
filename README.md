@@ -62,7 +62,8 @@ This dataset contains information on leads, including their online activity, dem
 
 - **Data Preparation:**  
   - The cleaned data was split into training and testing sets.  
-  - Categorical features were converted using **One-Hot Encoding**.  
+  - Categorical features were converted using **One-Hot Encoding**.
+  - Feature Selection by **Recursive Feature Elimination with Cross Validation** (RFECV) to get the Optimal Feature. 
   - Numerical features were scaled using **StandardScaler**.
     
 - **Model Selection:** Multiple classification algorithms were planned for evaluation to find the best-performing model:  
